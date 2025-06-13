@@ -7,12 +7,12 @@
 #include "SD_MMC.h"
 
 // Configuración WiFi
-const char* ssid     = "iPhone";
-const char* password = "25310tati";
+const char* ssid     = "nombrered";
+const char* password = "claverred";
 
 // Configuración Telegram
-#define BOTtoken  "7672713502:AAH55Vyi1rU-EF1eij3dnpqYvRMLxzsE58g"
-#define CHAT_ID   "5365006160"
+#define BOTtoken  "XXXXXXXXX:AAXXXXXX-4618XXX15XX"
+#define CHAT_ID   "XXXXXXXXXXXX"
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
 
